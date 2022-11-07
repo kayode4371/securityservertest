@@ -1,0 +1,1657 @@
+ <!-- <!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset = "UTF-8">
+	<link rel = "stylesheet" href="form2.css">
+	<title> Iso-Sec</title>
+</head>
+
+<form action="/add" class="my-form" enctype="multipart/form-data" enctype="multipart/form-data"method="POST">
+
+	<div class="container">
+
+		<fieldset>
+			<legend>Admin Iso-Sec Courses</legend>
+			
+		</fieldset>
+
+		<h1>Admin Iso-Sec Courses </h1>
+		<fieldset>
+			<legend>Admin Iso-Sec Courses</legend>
+
+	  <ul>
+		<li>
+		   <select id="course_categories" name="course_categories">
+			<option selected disabled>-- Please Select A Course Category --</option>
+			<option value="Hot_New">Hot New Courses</option>
+			<option value="Featured">Featured</option>
+			<option value="On_Demand">On Demand</option>
+			<option value="Archived">Archived</option>   
+		  </select> 
+		<br>
+		<br>
+	  <div class="grid grid-2">
+  		
+		<button class="btn-grid" type="reset" id="reset" name="reset"> 
+			<span class="back">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/eraser-icon.svg" alt="">
+			</span>
+			<span class="front">Save</span>
+		</button> 
+		
+		<button class="btn-grid" type="reset" id="reset" name="reset"> 
+			<span class="back">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/eraser-icon.svg" alt="">
+			</span>
+			<span class="front">Delete</span>
+		</button> 
+		</div> 
+	
+<br>
+	<ul>
+	  <li>
+		<select id="Item Number" name="item_number">
+			<option selected disabled>-- Select Item --</option>
+			<option value="Item 1">Item 1</option>
+			<option value="Item 2">Item 2</option>
+			<option value="Item 3">Item 3</option>
+			<option value="Item 4">Item 4</option>
+			<option value="Item 5"> Item 5</option>
+			<option value="Item 6">Item 6</option>
+			<option value="Item 7">Item 7</option>
+			<option value="Item 8">Item 8</option>
+			<option value="Item 9"> Item 9</option>
+			<option value="Item 10">Item 10</option>
+			<option value="Item 11">Item 11</option>
+			<option value="Item 12">Item 12</option>
+			<option value="Item 13">Item 13</option>
+			<option value="Item 14">Item 14</option>
+			<option value="Item 15">Item 15</option>
+			<option value="Item 16"> Item 16</option>
+			<option value="Item 17">Item 17</option>
+			<option value="Item 18">Item 18</option>
+			<option value="Item 19">Item 19</option>
+			<option value="Item 20">Item 20</option>  
+		  </select>   -->
+		  
+	  <!-- <br>
+	  <br>
+	  <div class="grid grid-2">
+
+	  <button class="btn-grid" type="reset" id="reset" name="reset"> 
+		  <span class="back">
+		  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/eraser-icon.svg" alt="">
+		  </span>
+		  <span class="front">Save</span>
+	  </button> 
+	  
+	  <button class="btn-grid" type="reset" id="reset" name="reset"> 
+		  <span class="back">
+		  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/eraser-icon.svg" alt="">
+		  </span>
+		  <span class="front">Delete</span>
+	  </button> 
+	  </div> 
+
+	</fieldset>	  
+		
+		<h2>Course Details</h2>
+			<fieldset>
+				<legend>Course Details</legend>
+				<input type="text" placeholder="Course Title"  id="course_title" name="course_title" tabindex="1" required>  
+			<br>
+			<br>
+		  <div class="grid grid-2">
+		  <button  class="btn-grid" type="reset" id="reset" name="reset"> 
+			  <span class="back">
+			  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/eraser-icon.svg" alt="">
+			  </span>
+			  <span class="front">Save</span>
+		  </button> 
+		  
+		  <button class="btn-grid" type="reset" id="reset" name="reset"> 
+			  <span class="back">
+			  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/eraser-icon.svg" alt="">
+			  </span>
+			  <span class="front">Delete</span>
+		  </button> 
+		  </div> 
+			<br>
+		
+			<div class="grid grid-2">
+			  <input type="text" placeholder="Course Price"  id="course_title" name="course_title" tabindex="1" required>  
+			 
+			  <div class="grid grid-2">
+			  <button class="btn-grid" type="submit">
+				  <span class="back">
+					<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/email-icon.svg" alt="">
+				  </span>
+				  <span class="front">Save</span>
+				</button>
+  
+				<button class="btn-grid" type="submit">
+				  <span class="back">
+					<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/email-icon.svg" alt="">
+				  </span>
+				  <span class="front">Delete</span>
+				</button>
+			  </div>
+			</div>
+		
+				<br>
+			 <div class="grid grid-2">
+				<input type="file" name="myImage2" accept="image/*" />
+				<div class="grid grid-2">
+
+					<button class="btn-grid" type="submit">
+						<span class="back">
+						  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/email-icon.svg" alt="">
+						</span>
+						<span class="front">Upload Image</span>
+					  </button>
+		
+					  <button class="btn-grid" type="submit">
+						<span class="back">
+						  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/email-icon.svg" alt="">
+						</span>
+						<span class="front">Remove Image</span>
+					  </button>
+				</div>
+			  </div>
+	
+		<br>
+		  <textarea placeholder="About This Course" type="text" name="about_this_course"id="about_this_course" ></textarea>
+		</li> 
+
+		<div class="grid grid-2"> -->
+			
+		  <!-- <button class="btn-grid" type="reset" id="reset" name="reset"> 
+			  <span class="back">
+			  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/eraser-icon.svg" alt="">
+			  </span>
+			  <span class="front">Save</span>
+		  </button> 
+		  
+		  <button class="btn-grid" type="reset" id="reset" name="reset"> 
+			  <span class="back">
+			  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/eraser-icon.svg" alt="">
+			  </span>
+			  <span class="front">Delete</span>
+		  </button> 
+		  </div> 
+		</fieldset>
+		<h2>Course Facilitator</h2>
+		<fieldset>
+			<legend>Course Facilitator</legend>
+			<div class="grid grid-2">
+				<input type="text" placeholder="Name"  id="facilitator_name" name="facilitator_name" tabindex="5" required>  
+				<div class="grid grid-2">
+				<button class="btn-grid" type="submit">
+					<span class="back">
+					  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/email-icon.svg" alt="">
+					</span>
+					<span class="front">Enter</span>
+				  </button>
+				  <button class="btn-grid" type="submit">
+					<span class="back">
+					  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/email-icon.svg" alt="">
+					</span>
+					<span class="front">Remove</span>
+				  </button>
+				</div>	 
+			</div>
+		
+		  <br>
+		  <textarea placeholder="About Course Facilitator" name="about_course_facilitator"id="about_course_facilitator"></textarea>
+		</li> 
+		<br>
+		<div class="grid grid-2">
+			<!-- <form action="/delete_all_reset" class="my-form" enctype="multipart/form-data" enctype="multipart/form-data"method="POST"> 			 -->
+		  <!-- <button class="btn-grid" type="reset" id="reset" name="reset"> 
+			  <span class="back">
+			  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/eraser-icon.svg" alt="">
+			  </span>
+			  <span class="front">Save</span>
+		  </button> 
+		  
+		  <button class="btn-grid" type="reset" id="reset" name="reset"> 
+			  <span class="back">
+			  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/eraser-icon.svg" alt="">
+			  </span>
+			  <span class="front">Delete</span>
+		  </button> 
+		  </div> 
+</fieldset>
+
+	
+	</form>  
+		<form action="/facilitators_image_upload" class="my-form" enctype="multipart/form-data" enctype="multipart/form-data"method="POST"> 
+			<div class="required-msg">REQUIRED FIELDS</div>
+	 <form action="/delete_fields" class="my-form" enctype="multipart/form-data" enctype="multipart/form-data"method="POST"> 	
+
+	</form> 
+	<div class="container">
+	</div>
+  </form>
+  <footer>
+	<div class="container">
+	  <small>Built by <span>❤</span>  <a href="http://georgemartsoukos.com/" target="_blank">Olukayode Akorede +2348048323290</a>
+	  </small>
+	</div>
+  </footer>  -->
+<!-- ///////////////////////////////////////////////////////// -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Iso Sec Admin Dashboard</title>
+    <link rel="stylesheet" href="/form7.css">
+</head>
+
+<body>
+
+    <div class="content">
+       
+
+        <form method="post" action="/form">
+        
+
+            <button type="submit" id="submit" name="submit" tabindex="10">Submit</button>
+        </form>
+    </div>
+
+    <script src="/validate.js"></script>
+</body>
+
+</html>
+////////////////////////////////////////////////////// -->
+
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset = "UTF-8">
+	<link rel = "stylesheet" href="form2.css">
+	<title> Iso-Sec</title>
+</head>
+<form action="/add_category" class="my-form" method="POST">
+<!-- <form action="/add_category" class="my-form" enctype="multipart/form-data" enctype="multipart/form-data"method="POST"> -->
+	<div class="container">
+		<fieldset>
+			<legend></legend>	
+			<h1>PAC Security Risk Assessment Wizard</h1>
+			<!-- <h1>Admin Iso-Sec Courses </h1> -->
+		</fieldset>
+		
+		<fieldset>
+			<legend>Admin Iso-Sec Courses</legend>
+	  <ul>
+		<li>
+		   <select id="course_categories" name="course_categories">
+			<option selected disabled>-- Please Select A Course Category --</option>
+			<option value="Hot_New">Hot New Courses</option>
+			<option value="Featured">Featured</option>
+			<option value="On_Demand">On Demand</option>
+			<option value="Archived">Archived</option>   
+		  </select> 
+		<br>
+		<br>
+	  <div class="grid grid-2">
+  		
+		<button class="btn-grid" type="submit" id="submit" name="submit"> 
+			<span class="back">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/eraser-icon.svg" alt="">
+			</span>
+			<span class="front">Save</span>
+		</button> 
+	</form>
+	<form action="/delete_category" class="my-form" method="POST">
+	<!-- <form action="/delete_category" class="my-form" enctype="multipart/form-data" enctype="multipart/form-data"method="POST"> -->
+		<button class="btn-grid" type="submit" id="submit" name="submit"> 
+			<span class="back">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/eraser-icon.svg" alt="">
+			</span>
+			<span class="front">Delete</span>
+		</button> 
+		</div> 
+	</form >
+	<form action="/add_item" class="my-form" method="POST">	
+<!-- <form action="/add_item" class="my-form" enctype="multipart/form-data" enctype="multipart/form-data"method="POST">	 -->
+<br>
+	<ul>
+	  <li>
+		<select id="item_number" name="item_number"tabindex="1" required>
+			<option selected disabled>-- Select Item --</option>
+			<option value="Item 1">Item 1</option>
+			<option value="Item 2">Item 2</option>
+			<option value="Item 3">Item 3</option>
+			<option value="Item 4">Item 4</option>
+			<option value="Item 5"> Item 5</option>
+			<option value="Item 6">Item 6</option>
+			<option value="Item 7">Item 7</option>
+			<option value="Item 8">Item 8</option>
+			<option value="Item 9"> Item 9</option>
+			<option value="Item 10">Item 10</option>
+			<option value="Item 11">Item 11</option>
+			<option value="Item 12">Item 12</option>
+			<option value="Item 13">Item 13</option>
+			<option value="Item 14">Item 14</option>
+			<option value="Item 15">Item 15</option>
+			<option value="Item 16"> Item 16</option>
+			<option value="Item 17">Item 17</option>
+			<option value="Item 18">Item 18</option>
+			<option value="Item 19">Item 19</option>
+			<option value="Item 20">Item 20</option>  
+		  </select> 
+	  <br>
+	  <br>
+	  <div class="grid grid-2">
+	  <button class="btn-grid" type="submit" id="submit" name="submit"> 
+		  <span class="back">
+		  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/eraser-icon.svg" alt="">
+		  </span>
+		  <span class="front">Save</span>
+	  </button> 
+	</form>
+	<form action="/delete_item" class="my-form" enctype="multipart/form-data" enctype="multipart/form-data"method="POST">	
+	  <button class="btn-grid" type="submit" id="reset" name="submit"> 
+		  <span class="back">
+		  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/eraser-icon.svg" alt="">
+		  </span>
+		  <span class="front">Delete</span>
+	  </button> 
+	  </div> 
+	</form >
+
+	<form action="/add_course_title" class="my-form" method="POST">	
+	  <!-- <form action="/add_course_title" class="my-form" enctype="multipart/form-data" enctype="multipart/form-data"method="POST"> -->
+	</fieldset>	  
+		
+		<h2>Course Details</h2>
+		<fieldset>
+
+
+		<div class="grid grid-2">
+			<select id="course_categories" name="course_categories">
+				<option selected disabled>-- Please Select A Course Category --</option>
+				<option value="Hot_New">Hot New Courses</option>
+				<option value="Featured">Featured</option>
+				<option value="On_Demand">On Demand</option>
+				<option value="Archived">Archived</option>   
+			  </select> 
+
+			  <select id="item_number" name="item_number">
+				<option selected disabled>-- Select Item --</option>
+				<option value="Item 1">Item 1</option>
+				<option value="Item 2">Item 2</option>
+				<option value="Item 3">Item 3</option>
+				<option value="Item 4">Item 4</option>
+				<option value="Item 5"> Item 5</option>
+				<option value="Item 6">Item 6</option>
+				<option value="Item 7">Item 7</option>
+				<option value="Item 8">Item 8</option>
+				<option value="Item 9"> Item 9</option>
+				<option value="Item 10">Item 10</option>
+				<option value="Item 11">Item 11</option>
+				<option value="Item 12">Item 12</option>
+				<option value="Item 13">Item 13</option>
+				<option value="Item 14">Item 14</option>
+				<option value="Item 15">Item 15</option>
+				<option value="Item 16"> Item 16</option>
+				<option value="Item 17">Item 17</option>
+				<option value="Item 18">Item 18</option>
+				<option value="Item 19">Item 19</option>
+				<option value="Item 20">Item 20</option>  
+			  </select>
+		</div> 
+		<br>
+	<!-- </fieldset> -->
+
+			<!-- <fieldset>
+				<legend>Enter Course Details</legend> -->
+				<input type="text" placeholder="Course Title"  id="course_title" name="course_title" tabindex="1" required>  
+			<br>
+			<br>
+		  <div class="grid grid-2">
+		  <button  class="btn-grid" type="submit" id="submit" name="submit"> 
+			  <span class="back">
+			  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/eraser-icon.svg" alt="">
+			  </span>
+			  <span class="front">Save</span>
+		  </button> 
+		  <form action="/delete_course_title" class="my-form" method="POST">	  
+		  <!-- <form action="/delete_course_title" class="my-form" enctype="multipart/form-data" enctype="multipart/form-data"method="POST">	   -->
+		  <button class="btn-grid" type="submit" id="reset" name="submit"> 
+			  <span class="back">
+			  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/eraser-icon.svg" alt="">
+			  </span>
+			  <span class="front">Delete</span>
+		  </button> 
+		  </div> 
+		 
+		</form >
+		</fieldset>
+			<br>
+	
+<!-- <form action="/add_course_price" class="my-form" enctype="multipart/form-data" enctype="multipart/form-data"method="POST"> -->
+	<form action="/add_course_price" class="my-form"method="POST">
+		 <fieldset>
+			<legend>Course Price</legend>
+
+			<div class="grid grid-2">
+				<select id="course_categories" name="course_categories">
+					<option selected disabled>-- Please Select A Course Category --</option>
+					<option value="Hot_New">Hot New Courses</option>
+					<option value="Featured">Featured</option>
+					<option value="On_Demand">On Demand</option>
+					<option value="Archived">Archived</option>   
+				  </select> 
+	
+				  <select id="item_number" name="item_number">
+					<option selected disabled>-- Select Item --</option>
+					<option value="Item 1">Item 1</option>
+					<option value="Item 2">Item 2</option>
+					<option value="Item 3">Item 3</option>
+					<option value="Item 4">Item 4</option>
+					<option value="Item 5"> Item 5</option>
+					<option value="Item 6">Item 6</option>
+					<option value="Item 7">Item 7</option>
+					<option value="Item 8">Item 8</option>
+					<option value="Item 9"> Item 9</option>
+					<option value="Item 10">Item 10</option>
+					<option value="Item 11">Item 11</option>
+					<option value="Item 12">Item 12</option>
+					<option value="Item 13">Item 13</option>
+					<option value="Item 14">Item 14</option>
+					<option value="Item 15">Item 15</option>
+					<option value="Item 16"> Item 16</option>
+					<option value="Item 17">Item 17</option>
+					<option value="Item 18">Item 18</option>
+					<option value="Item 19">Item 19</option>
+					<option value="Item 20">Item 20</option>  
+				  </select>
+			</div> 
+		<!-- </fieldset> -->
+<br>
+			<div class="grid grid-2">
+				<div class="grid grid-2">
+
+
+			  <input type="text" placeholder="(₦)Course Price"  id="course_price_naira" name="course_price_naira" tabindex="1" required>  
+			  <input type="text" placeholder="($)Course Price"  id="course_price_dollar" name="course_price_dollar" tabindex="1" required>  
+			 
+			</div>
+			  <div class="grid grid-2">
+			  <button class="btn-grid" type="submit">
+				  <span class="back">
+					<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/email-icon.svg" alt="">
+				  </span>
+				  <span class="front">Save</span>
+				</button>
+				</form>
+<!-- <form action="/remove_course_price" class="my-form" enctype="multipart/form-data" enctype="multipart/form-data"method="POST"> -->
+<form action="/remove_course_price" class="my-form"method="POST">
+				<button class="btn-grid" type="submit">
+				  <span class="back">
+					<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/email-icon.svg" alt="">
+				  </span>
+				  <span class="front">Delete</span>
+				</button>
+			  </div>
+			</div>
+		</form >
+	</fieldset>
+<br>
+<!-- <form action="/upload_course_image" class="my-form" method="POST"> -->
+<form action="/upload_course_image" class="my-form" enctype="multipart/form-data" enctype="multipart/form-data"method="POST">
+ 
+	<fieldset> 
+		<div class="grid grid-2">
+			<select id="course_categories" name="course_categories">
+				<option selected disabled>-- Please Select A Course Category --</option>
+				<option value="Hot_New">Hot New Courses</option>
+				<option value="Featured">Featured</option>
+				<option value="On_Demand">On Demand</option>
+				<option value="Archived">Archived</option>   
+			  </select> 
+
+			  <select id="item_number" name="item_number">
+				<option selected disabled>-- Select Item --</option>
+				<option value="Item 1">Item 1</option>
+				<option value="Item 2">Item 2</option>
+				<option value="Item 3">Item 3</option>
+				<option value="Item 4">Item 4</option>
+				<option value="Item 5"> Item 5</option>
+				<option value="Item 6">Item 6</option>
+				<option value="Item 7">Item 7</option>
+				<option value="Item 8">Item 8</option>
+				<option value="Item 9"> Item 9</option>
+				<option value="Item 10">Item 10</option>
+				<option value="Item 11">Item 11</option>
+				<option value="Item 12">Item 12</option>
+				<option value="Item 13">Item 13</option>
+				<option value="Item 14">Item 14</option>
+				<option value="Item 15">Item 15</option>
+				<option value="Item 16"> Item 16</option>
+				<option value="Item 17">Item 17</option>
+				<option value="Item 18">Item 18</option>
+				<option value="Item 19">Item 19</option>
+				<option value="Item 20">Item 20</option>  
+			  </select>
+		</div> 
+	<!-- </fieldset> -->
+	<br>
+	<!-- <fieldset> -->
+		<legend>Upload Course Image</legend>
+	<div class="grid grid-2">
+		<input type="file" name="course_image1" accept="image/*" /> 
+	  <div class="grid grid-2">
+	
+
+	  <button class="btn-grid" type="submit">
+		  <span class="back">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/email-icon.svg" alt="">
+		  </span>
+		  <span class="front">Save</span>
+		</button>
+		</form>
+<form action="/remove_course_image" class="my-form" enctype="multipart/form-data" enctype="multipart/form-data"method="POST"> 
+	<!-- <form action="/remove_course_image" class="my-form" method="POST"> -->
+		<button class="btn-grid" type="submit">
+		  <span class="back">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/email-icon.svg" alt="">
+		  </span>
+		  <span class="front">Delete</span>
+		</button>
+	  </div>
+	</div>
+<!-- </fieldset> -->
+<br>
+</form >
+</fieldset> 
+<fieldset>
+	<legend>About This Course</legend>
+<form action="/add_about_course" class="my-form" method="POST">
+		
+	<div class="grid grid-2">
+		<select id="course_categories" name="course_categories">
+			<option selected disabled>-- Please Select A Course Category --</option>
+			<option value="Hot_New">Hot New Courses</option>
+			<option value="Featured">Featured</option>
+			<option value="On_Demand">On Demand</option>
+			<option value="Archived">Archived</option>   
+		  </select> 
+
+		  <select id="item_number" name="item_number">
+			<option selected disabled>-- Select Item --</option>
+			<option value="Item 1">Item 1</option>
+			<option value="Item 2">Item 2</option>
+			<option value="Item 3">Item 3</option>
+			<option value="Item 4">Item 4</option>
+			<option value="Item 5"> Item 5</option>
+			<option value="Item 6">Item 6</option>
+			<option value="Item 7">Item 7</option>
+			<option value="Item 8">Item 8</option>
+			<option value="Item 9"> Item 9</option>
+			<option value="Item 10">Item 10</option>
+			<option value="Item 11">Item 11</option>
+			<option value="Item 12">Item 12</option>
+			<option value="Item 13">Item 13</option>
+			<option value="Item 14">Item 14</option>
+			<option value="Item 15">Item 15</option>
+			<option value="Item 16"> Item 16</option>
+			<option value="Item 17">Item 17</option>
+			<option value="Item 18">Item 18</option>
+			<option value="Item 19">Item 19</option>
+			<option value="Item 20">Item 20</option>  
+		  </select>
+	</div> 
+	<br>
+	
+	
+	
+	<!-- <form action="/add_about_course" class="my-form" enctype="multipart/form-data" enctype="multipart/form-data"method="POST"> -->
+		  <textarea placeholder="About This Course" type="text" name="about_this_course"id="about_this_course" ></textarea>
+		</li> 
+
+		<div class="grid grid-2">
+			<!-- <form action="/delete_all_reset" class="my-form" enctype="multipart/form-data" enctype="multipart/form-data"method="POST"> 			 -->
+		  <button class="btn-grid" type="submit" id="submit" name="submit"> 
+			  <span class="back">
+			  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/eraser-icon.svg" alt="">
+			  </span>
+			  <span class="front">Save</span>
+		  </button> 
+		</form>
+
+		<form action="/remove_about_course" class="my-form" method="POST">
+		<!-- <form action="/remove_about_course" class="my-form" enctype="multipart/form-data" enctype="multipart/form-data"method="POST"> -->
+		  <button class="btn-grid" type="submit" id="submit" name="submit"> 
+			  <span class="back">
+			  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/eraser-icon.svg" alt="">
+			  </span>
+			  <span class="front">Delete</span>
+		  </button> 
+		  </div> 
+		</fieldset>
+	</form >
+</fieldset> 
+	<form action="/add_facilitator_name" class="my-form" method="POST">
+	
+
+<!-- <form action="/add_facilitator_name" class="my-form" enctype="multipart/form-data" enctype="multipart/form-data"method="POST">	 -->
+		<h2>Course Facilitator</h2>
+		<fieldset>
+			<legend>Course Facilitator Details</legend>
+
+			
+				<div class="grid grid-2">
+					<select id="course_categories" name="course_categories">
+						<option selected disabled>-- Please Select A Course Category --</option>
+						<option value="Hot_New">Hot New Courses</option>
+						<option value="Featured">Featured</option>
+						<option value="On_Demand">On Demand</option>
+						<option value="Archived">Archived</option>   
+					  </select> 
+		
+					  <select id="item_number" name="item_number">
+						<option selected disabled>-- Select Item --</option>
+						<option value="Item 1">Item 1</option>
+						<option value="Item 2">Item 2</option>
+						<option value="Item 3">Item 3</option>
+						<option value="Item 4">Item 4</option>
+						<option value="Item 5"> Item 5</option>
+						<option value="Item 6">Item 6</option>
+						<option value="Item 7">Item 7</option>
+						<option value="Item 8">Item 8</option>
+						<option value="Item 9"> Item 9</option>
+						<option value="Item 10">Item 10</option>
+						<option value="Item 11">Item 11</option>
+						<option value="Item 12">Item 12</option>
+						<option value="Item 13">Item 13</option>
+						<option value="Item 14">Item 14</option>
+						<option value="Item 15">Item 15</option>
+						<option value="Item 16"> Item 16</option>
+						<option value="Item 17">Item 17</option>
+						<option value="Item 18">Item 18</option>
+						<option value="Item 19">Item 19</option>
+						<option value="Item 20">Item 20</option>  
+					  </select>
+				</div> 
+			
+				<br>
+		
+
+
+			<div class="grid grid-2">
+				<input type="text" placeholder="Name"  id="facilitator_name" name="facilitator_name" tabindex="5" required>  
+				<div class="grid grid-2">
+				<button class="btn-grid" type="submit">
+					<span class="back">
+					  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/email-icon.svg" alt="">
+					</span>
+					<span class="front">Enter</span>
+				  </button>
+				</form>
+				<form action="/remove_facilitator_name" class="my-form" enctype="multipart/form-data" enctype="multipart/form-data"method="POST">
+	
+				  <button class="btn-grid" type="submit">
+					<span class="back">
+					  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/email-icon.svg" alt="">
+					</span>
+					<span class="front">Remove</span>
+				  </button>
+				</div>	 
+			</div>
+		</form >
+		</fieldset>
+		
+
+		<Br>
+		<form action="/add_about_Course_Facilitator" class="my-form" method="POST">
+		<fieldset>
+			<div class="grid grid-2">
+				<select id="course_categories" name="course_categories">
+					<option selected disabled>-- Please Select A Course Category --</option>
+					<option value="Hot_New">Hot New Courses</option>
+					<option value="Featured">Featured</option>
+					<option value="On_Demand">On Demand</option>
+					<option value="Archived">Archived</option>   
+				  </select> 
+	
+				  <select id="item_number" name="item_number">
+					<option selected disabled>-- Select Item --</option>
+					<option value="Item 1">Item 1</option>
+					<option value="Item 2">Item 2</option>
+					<option value="Item 3">Item 3</option>
+					<option value="Item 4">Item 4</option>
+					<option value="Item 5"> Item 5</option>
+					<option value="Item 6">Item 6</option>
+					<option value="Item 7">Item 7</option>
+					<option value="Item 8">Item 8</option>
+					<option value="Item 9"> Item 9</option>
+					<option value="Item 10">Item 10</option>
+					<option value="Item 11">Item 11</option>
+					<option value="Item 12">Item 12</option>
+					<option value="Item 13">Item 13</option>
+					<option value="Item 14">Item 14</option>
+					<option value="Item 15">Item 15</option>
+					<option value="Item 16"> Item 16</option>
+					<option value="Item 17">Item 17</option>
+					<option value="Item 18">Item 18</option>
+					<option value="Item 19">Item 19</option>
+					<option value="Item 20">Item 20</option>  
+				  </select>
+			</div> 
+
+
+
+<!-- <form action="/add_about_Course_Facilitator" class="my-form" enctype="multipart/form-data" enctype="multipart/form-data"method="POST"> -->
+		  <br>
+		  <textarea placeholder="About Course Facilitator" name="about_course_facilitator"id="about_course_facilitator"></textarea>
+		</li> 
+		<br>
+		<div class="grid grid-2">
+		
+		  <button class="btn-grid" type="submit" id="submit" name="submit"> 
+			  <span class="back">
+			  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/eraser-icon.svg" alt="">
+			  </span>
+			  <span class="front">Save</span>
+		  </button> 
+		</form>
+		<form action="/remove_about_Course_Facilitator" class="my-form" method="POST"></form>
+		<!-- <form action="/remove_about_Course_Facilitator" class="my-form" enctype="multipart/form-data" enctype="multipart/form-data"method="POST"> -->
+		  <button class="btn-grid" type="submit" id="submit" name="submit"> 
+			  <span class="back">
+			  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/eraser-icon.svg" alt="">
+			  </span>
+			  <span class="front">Delete</span>
+		  </button> 
+		  </div> 
+
+</form >
+</fieldset>
+<form action="/facilitators_image_upload" class="my-form" enctype="multipart/form-data" enctype="multipart/form-data"method="POST"> 
+	<div class="grid grid-2">
+		<select id="course_categories" name="course_categories">
+			<option selected disabled>-- Please Select A Course Category --</option>
+			<option value="Hot_New">Hot New Courses</option>
+			<option value="Featured">Featured</option>
+			<option value="On_Demand">On Demand</option>
+			<option value="Archived">Archived</option>   
+		  </select> 
+
+		  <select id="item_number" name="item_number">
+			<option selected disabled>-- Select Item --</option>
+			<option value="Item 1">Item 1</option>
+			<option value="Item 2">Item 2</option>
+			<option value="Item 3">Item 3</option>
+			<option value="Item 4">Item 4</option>
+			<option value="Item 5"> Item 5</option>
+			<option value="Item 6">Item 6</option>
+			<option value="Item 7">Item 7</option>
+			<option value="Item 8">Item 8</option>
+			<option value="Item 9"> Item 9</option>
+			<option value="Item 10">Item 10</option>
+			<option value="Item 11">Item 11</option>
+			<option value="Item 12">Item 12</option>
+			<option value="Item 13">Item 13</option>
+			<option value="Item 14">Item 14</option>
+			<option value="Item 15">Item 15</option>
+			<option value="Item 16"> Item 16</option>
+			<option value="Item 17">Item 17</option>
+			<option value="Item 18">Item 18</option>
+			<option value="Item 19">Item 19</option>
+			<option value="Item 20">Item 20</option>  
+		  </select>
+	</div> 
+	
+	<br>
+	
+	<fieldset>
+		<legend>Upload Facilitator's Image</legend>
+	<div class="grid grid-2">
+		<input type="file" name="facilitators_image3" accept="image/*" /> 
+	  <div class="grid grid-2">
+		<button class="btn-grid" type="submit">
+			<span class="back">
+			  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/email-icon.svg" alt="">
+			</span>
+			<span class="front">Save</span>
+		  </button>
+		  </form>	
+
+		  <form action="/remove_facilitator_Image" class="my-form" enctype="multipart/form-data" enctype="multipart/form-data"method="POST">
+			<button class="btn-grid" type="submit">
+			  <span class="back">
+				<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/email-icon.svg" alt="">
+			  </span>
+			  <span class="front">Delete</span>
+			</button>
+		  </div>
+		</div>
+	</fieldset>
+	</form >
+	
+	<!-- <div class="required-msg">REQUIRED FIELDS</div> -->
+	<div class="required-msg"></div>
+  </form>
+  <footer>
+	<div class="container">
+	  <small>Built by <span>❤</span>  <a href="http://georgemartsoukos.com/" target="_blank">Olukayode Akorede +2348048323290</a>
+	  </small>
+	</div>
+  </footer>
+
+
+<!-- <!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset = "UTF-8">
+	<link rel = "stylesheet" href="form2.css">
+	<title> Iso-Sec</title>
+</head>
+
+
+
+<form action="/add" class="my-form" enctype="multipart/form-data" enctype="multipart/form-data"method="POST">
+
+	<div class="container">
+	
+	  <h1>Admin Iso-Sec Courses </h1>
+	  <ul>
+		<li>
+		   <select id="course_categories" name="course_categories">
+			<option selected disabled>-- Please Select A Course Category --</option>
+			<option value="Hot_New">Hot New Courses</option>
+			<option value="Featured">Featured</option>
+			<option value="On_Demand">On Demand</option>
+			<option value="Archived">Archived</option>   
+		  </select> 
+		  <br>
+	 <br>  
+		  <select id="Item Number" name="item_number">
+			<option selected disabled>-- Select Item --</option>
+			<option value="Item 1">Item 1</option>
+			<option value="Item 2">Item 2</option>
+			<option value="Item 3">Item 3</option>
+			<option value="Item 4">Item 4</option>
+			<option value="Item 5"> Item 5</option>
+			<option value="Item 6">Item 6</option>
+			<option value="Item 7">Item 7</option>
+			<option value="Item 8">Item 8</option>
+			<option value="Item 9"> Item 9</option>
+			<option value="Item 10">Item 10</option>
+			<option value="Item 11">Item 11</option>
+			<option value="Item 12">Item 12</option>
+			<option value="Item 13">Item 13</option>
+			<option value="Item 14">Item 14</option>
+			<option value="Item 15">Item 15</option>
+			<option value="Item 16"> Item 16</option>
+			<option value="Item 17">Item 17</option>
+			<option value="Item 18">Item 18</option>
+			<option value="Item 19">Item 19</option>
+			<option value="Item 20">Item 20</option>  
+		  </select> 
+		  
+		</li>
+		<h2>Course Details</h2>
+		<li>
+		  <div class="grid grid-2">
+			<input type="text" placeholder="Course Title"  id="course_title" name="course_title" tabindex="1" required>  
+			<input type="text" placeholder="Amount"  id="amount" name="amount" tabindex="4"required>
+		  </div>
+		</li>
+
+		<li>
+				
+			 <div class="grid grid-2">
+				<input type="file" name="myImage2" accept="image/*" />
+				<input type="submit3" value="Upload Course Image"/>
+			  </div>
+		</li> 
+		<br>
+
+		<li>
+		  <textarea placeholder="About This Course" type="text" name="about_this_course"id="about_this_course" ></textarea>
+		</li>   
+		<h2>Course Facilitator</h2>
+		<li>
+			
+
+			<div class="grid grid-2">
+				<input type="text" placeholder="Name"  id="facilitator_name" name="facilitator_name" tabindex="5" required>  
+				<button class="btn-grid" type="submit">
+					<span class="back">
+					  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/email-icon.svg" alt="">
+					</span>
+					<span class="front">Enter</span>
+				  </button>
+				</div>	  
+		  </li>
+		  <textarea placeholder="About Course Facilitator" name="about_course_facilitator"id="about_course_facilitator"></textarea>
+		</li> 
+	</form>  
+
+		<form action="/facilitators_image_upload" class="my-form" enctype="multipart/form-data" enctype="multipart/form-data"method="POST"> 
+			
+			<div class="grid grid-2">
+				<select id="course_categories" name="course_categories">
+					<option selected disabled>-- Please Select A Course Category --</option>
+					<option value="Hot_New">Hot New Courses</option>
+					<option value="Featured">Featured</option>
+					<option value="On_Demand">On Demand</option>
+					<option value="Archived">Archived</option>   
+				  </select> 
+					<select id="Item Number" name="item_number">
+						<option selected disabled>-- Select Item --</option>
+						<option value="Item 1">Item 1</option>
+						<option value="Item 2">Item 2</option>
+						<option value="Item 3">Item 3</option>
+						<option value="Item 4">Item 4</option>
+						<option value="Item 5"> Item 5</option>
+						<option value="Item 6">Item 6</option>
+						<option value="Item 7">Item 7</option>
+						<option value="Item 8">Item 8</option>
+						<option value="Item 9"> Item 9</option>
+						<option value="Item 10">Item 10</option>
+						<option value="Item 11">Item 11</option>
+						<option value="Item 12">Item 12</option>
+						<option value="Item 13">Item 13</option>
+						<option value="Item 14">Item 14</option>
+						<option value="Item 15">Item 15</option>
+						<option value="Item 16"> Item 16</option>
+						<option value="Item 17">Item 17</option>
+						<option value="Item 18">Item 18</option>
+						<option value="Item 19">Item 19</option>
+						<option value="Item 20">Item 20</option>  
+					  </select> 
+				</div>	
+				<li>
+			<li>
+			  <div class="grid grid-2"> 
+						<input type="file" name="facilitatorsImage1" accept="image/*" />
+
+					   <button class="btn-grid" type="submit4" > 
+				
+						<span class="back">
+						  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/email-icon.svg" alt="">
+						</span>
+						<span class="front">SUBMIT</span>
+					  </button>
+
+			<div class="required-msg">REQUIRED FIELDS</div> -->
+			<!-- <button class="btn-grid" type="reset" id="reset" name="reset"> 
+			  <span class="back">
+				<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/eraser-icon.svg" alt="">
+			  </span>
+			  <span class="front">RESET</span>
+			</button> -->
+
+			<!-- <div class="grid grid-2"> 
+			
+			
+				<select  id="Item Number" name="item_number">
+					<option selected disabled>-- DELETE FIELD--</option>
+					<option value="DELETE_COURSE_CATEGORY">DELETE COURSE CATEGORY"</option>
+					<option value="DELETE_ITEM_NUMBER">DELETE ITEM NUMBER</option>
+					<option value="DELETE_COURSE_TITLE">DELETE COURSE TITLE</option>
+					<option value="DELETE_COURSE_AMOUNT">DELETE COURSE AMOUNT</option>
+					<option value="DELETE_ABOUT_THIS_COURSE">DELETE ABOUT THIS COURSE</option>
+					<option value="DELETE_FACILITATORS_NAME">DELETE FACILITATORS NAME</option>
+					<option value="DELETE_ABOUT_COURSE_FACILITATOR">DELETE ABOUT COURSE FACILITATOR</option>
+					<option value="DELETE_CATEGORY_FACILITATOR">DELETE CATEGORY-FACILITATOR</option>
+					<option value="DELETE_ITEM_NUMBER_FACILITATOR">DELETE ITEM NUMBER-FACILITATOR</option>	
+				  </select> 
+
+			<button class="btn-grid" type="reset" id="reset" name="reset"> 
+			  <span class="back">
+				<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/eraser-icon.svg" alt="">
+			  </span>
+			  <span class="front">RESET</span>
+			</button> 
+
+		</div>  -->
+			<!-- </div>  -->
+
+	 <!-- </form>  -->
+	 
+	 <!-- <form action="/delete_fields" class="my-form" enctype="multipart/form-data" enctype="multipart/form-data"method="POST"> 	
+		<div class="grid grid-2">
+		<select  id="Item Number" name="item_number">
+			<option selected disabled>-- DELETE FIELD--</option>
+			<option value="DELETE_COURSE_CATEGORY">DELETE COURSE CATEGORY"</option>
+			<option value="DELETE_ITEM_NUMBER">DELETE ITEM NUMBER</option>
+			<option value="DELETE_COURSE_TITLE">DELETE COURSE TITLE</option>
+			<option value="DELETE_COURSE_AMOUNT">DELETE COURSE AMOUNT</option>
+			<option value="DELETE_ABOUT_THIS_COURSE">DELETE ABOUT THIS COURSE</option>
+			<option value="DELETE_FACILITATORS_NAME">DELETE FACILITATORS NAME</option>
+			<option value="DELETE_ABOUT_COURSE_FACILITATOR">DELETE ABOUT COURSE FACILITATOR</option>
+			<option value="DELETE_CATEGORY_FACILITATOR">DELETE CATEGORY-FACILITATOR</option>
+			<option value="DELETE_ITEM_NUMBER_FACILITATOR">DELETE ITEM NUMBER-FACILITATOR</option>	
+		  </select> 
+		</form> 
+
+	<form action="/delete_all_reset" class="my-form" enctype="multipart/form-data" enctype="multipart/form-data"method="POST"> 			
+	<button class="btn-grid" type="reset" id="reset" name="reset"> 
+	  <span class="back">
+		<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/eraser-icon.svg" alt="">
+	  </span>
+	  <span class="front">RESET</span>
+	</button> 
+</div> 
+</form> 
+	<div class="container">
+	</div>
+  </form>
+  <footer>
+	<div class="container">
+	  <small>Built by <span>❤</span>  <a href="http://georgemartsoukos.com/" target="_blank">Olukayode Akorede +2348048323290</a>
+	  </small>
+	</div>
+  </footer> -->
+
+
+
+
+
+
+
+<!-- /////////////////////////////////////////////////////////// -->
+<!-- <!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset = "UTF-8">
+	<link rel = "stylesheet" href="form2.css">
+	<title> Iso-Sec</title>
+</head>
+<form action="/uploadphoto" enctype="multipart/form-data" method="POST"> 
+ <input type="file" name="myImage" accept="image/*" />
+</form> -->
+
+<!-- <form class="my-form"action="/add" method="POST">
+
+	<div class="container">
+	
+	  <h1>Admin Iso-Sec  Courses</h1>
+	  <ul>
+		<li>
+		   <select id="course_categories" name="course_categories">
+			<option selected disabled>-- Please Select A Course Category --</option>
+			<option value="Hot_New">Hot New Courses</option>
+			<option value="Featured">Featured</option>
+			<option value="On_Demand">On Demand</option>
+			<option value="Archived">Archived</option>   
+		  </select> 
+		  <br> -->
+	 <!-- <br>  
+		  <select id="Item Number" name="item_number">
+			<option selected disabled>-- Select Item --</option>
+			<option value="Item 1">Item 1</option>
+			<option value="Item 2">Item 2</option>
+			<option value="Item 3">Item 3</option>
+			<option value="Item 4">Item 4</option>
+			<option value="Item 5"> Item 5</option>
+			<option value="Item 6">Item 6</option>
+			<option value="Item 7">Item 7</option>
+			<option value="Item 8">Item 8</option>
+			<option value="Item 9"> Item 9</option>
+			<option value="Item 10">Item 10</option>
+			<option value="Item 11">Item 11</option>
+			<option value="Item 12">Item 12</option>
+			<option value="Item 13">Item 13</option>
+			<option value="Item 14">Item 14</option>
+			<option value="Item 15">Item 15</option>
+			<option value="Item 16"> Item 16</option>
+			<option value="Item 17">Item 17</option>
+			<option value="Item 18">Item 18</option>
+			<option value="Item 19">Item 19</option>
+			<option value="Item 20">Item 20</option>  
+		  </select> 
+		  
+
+		</li>
+		<li>
+		  <div class="grid grid-2">
+			<input type="text" placeholder="Course Title"  id="course_title" name="course_title" tabindex="1" required>  
+			<input type="text" placeholder="Amount"  id="amount" name="amount" tabindex="4"required>
+		  </div>
+		</li>
+		<li>
+		  <div class="grid grid-2">
+			<input type="email" placeholder="Email" required>  
+			<input type="tel" placeholder="Phone">
+		  </div>
+		</li>
+
+		<li>
+				<h2>Course Image</h2>
+			 <input type="file" name="course_image"id="course_image"  tabindex="5"required/>
+		</li> 
+		<br>
+			
+		 <br>
+		<li>
+		  <textarea placeholder="About This Course" type="text" name="about_this_course"id="about_this_course" ></textarea>
+		</li>   
+		<h2>Course Facilitator</h2>
+		<li>
+			<div class="grid grid-2">
+			  <input type="text" placeholder="Facilitator's Name" required name="facilitator_name"id="facilitator_name" > 
+			  <form action="/uploadphoto" enctype="multipart/form-data" method="POST"> 
+				<input type="file" name="myImage" accept="image/*" />
+			   </form>
+			   <input type="file" name="facilitator_image"id="facilitator_image"  tabindex="5"required/> -->
+			<!-- </div>
+		  </li>
+		<li>
+		  <textarea placeholder="About Course Facilitator" name="about_course_facilitator"id="about_course_facilitator"></textarea>
+		</li>   -->
+<!-- 
+		<li>
+		  <div class="grid grid-3">
+			<div class="required-msg">REQUIRED FIELDS</div>
+			 <button class="btn-grid" type="submit" disabled> -->
+				<!-- <button class="btn-grid" type="submit">
+			  <span class="back">
+				<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/email-icon.svg" alt="">
+			  </span>
+			  <span class="front">SUBMIT</span>
+			</button>
+				<button class="btn-grid" type="reset">
+			  <span class="back">
+				<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/eraser-icon.svg" alt="">
+			  </span>
+			  <span class="front">RESET</span>
+			</button> 
+		  </div>
+		</li>    
+	  </ul>
+	</div>
+  </form>
+  <footer>
+	<div class="container">
+	  <small>Built by <span>❤</span> by <a href="http://georgemartsoukos.com/" target="_blank">Olukayode Akorede +2348048323290</a>
+	  </small>
+	</div> -->
+  <!-- </footer>   -->
+
+<!-- //////////current using//////////////////////////////////////////////////////////////////////////////////////////// -->
+<!-- <!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset = "UTF-8">
+	<link rel = "stylesheet" href="form2.css">
+	<title> Iso-Sec</title>
+</head>
+
+
+
+<form action="/add" class="my-form" enctype="multipart/form-data" enctype="multipart/form-data"method="POST">
+
+	<div class="container">
+	
+	  <h1>Admin Iso-Sec Courses </h1>
+	  <ul>
+		<li>
+		   <select id="course_categories" name="course_categories">
+			<option selected disabled>-- Please Select A Course Category --</option>
+			<option value="Hot_New">Hot New Courses</option>
+			<option value="Featured">Featured</option>
+			<option value="On_Demand">On Demand</option>
+			<option value="Archived">Archived</option>   
+		  </select> 
+		  <br>
+	 <br>  
+		  <select id="Item Number" name="item_number">
+			<option selected disabled>-- Select Item --</option>
+			<option value="Item 1">Item 1</option>
+			<option value="Item 2">Item 2</option>
+			<option value="Item 3">Item 3</option>
+			<option value="Item 4">Item 4</option>
+			<option value="Item 5"> Item 5</option>
+			<option value="Item 6">Item 6</option>
+			<option value="Item 7">Item 7</option>
+			<option value="Item 8">Item 8</option>
+			<option value="Item 9"> Item 9</option>
+			<option value="Item 10">Item 10</option>
+			<option value="Item 11">Item 11</option>
+			<option value="Item 12">Item 12</option>
+			<option value="Item 13">Item 13</option>
+			<option value="Item 14">Item 14</option>
+			<option value="Item 15">Item 15</option>
+			<option value="Item 16"> Item 16</option>
+			<option value="Item 17">Item 17</option>
+			<option value="Item 18">Item 18</option>
+			<option value="Item 19">Item 19</option>
+			<option value="Item 20">Item 20</option>  
+		  </select> 
+		  
+		</li>
+		<h2>Course Details</h2>
+		<li>
+		  <div class="grid grid-2">
+			<input type="text" placeholder="Course Title"  id="course_title" name="course_title" tabindex="1" required>  
+			<input type="text" placeholder="Amount"  id="amount" name="amount" tabindex="4"required>
+		  </div>
+		</li>
+
+		<li>
+				
+			 <div class="grid grid-2">
+				<input type="file" name="myImage2" accept="image/*" />
+				<input type="submit3" value="Upload Course Image"/>
+			  </div>
+		</li> 
+		<br>
+
+		<li>
+		  <textarea placeholder="About This Course" type="text" name="about_this_course"id="about_this_course" ></textarea>
+		</li>   
+		<h2>Course Facilitator</h2>
+
+		<li> -->
+
+
+			<!-- <div class="grid grid-2"> -->
+				<!-- <input type="text" placeholder="Name"  id="facilitator_name" name="facilitator_name" tabindex="5" required>  
+			   <input type="text" placeholder="First Name"  id="facilitator_first_name" name="facilitator_first_name" tabindex="4" required>   -->
+			  <!-- <input type="text" placeholder="Last Name"  id="facilitator_last_name" name="facilitator_last_name" tabindex="5" required>   -->
+			<!-- </div> -->
+		  <!-- </li>  -->
+
+			<!-- <form action="/facilitators_image_upload" class="my-form" enctype="multipart/form-data" enctype="multipart/form-data"method="POST"> -->
+					 <!-- <li> -->
+					   <!-- <div class="grid grid-2"> 
+								 <input type="file" name="facilitatorsImage1" accept="image/*" />
+								  <input type="submit" value="Upload Facilitator's Image"tabindex="6" required/>  -->
+					   <!-- </div>  -->
+					<!-- </li>   -->
+			  <!-- </form>  -->
+
+		
+
+		  <!-- <textarea placeholder="About Course Facilitator" name="about_course_facilitator"id="about_course_facilitator"></textarea>
+		</li> 
+
+		<li>
+		  <div class="grid grid-3">
+			<div class="required-msg">REQUIRED FIELDS</div>
+			 <button class="btn-grid" type="submit" disabled> -->
+				<!-- <button class="btn-grid" type="submit">
+			  <span class="back">
+				<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/email-icon.svg" alt="">
+			  </span>
+			  <span class="front">SUBMIT</span>
+			</button>
+				<button class="btn-grid" type="reset">
+			  <span class="back">
+				<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/eraser-icon.svg" alt="">
+			  </span>
+			  <span class="front">RESET</span>
+			</button> 
+		  </div>
+		</li>    
+	  </ul>
+	</div>
+  </form>
+  <footer>
+	<div class="container">
+	  <small>Built by <span>❤</span>  <a href="http://georgemartsoukos.com/" target="_blank">Olukayode Akorede +2348048323290</a>
+	  </small>
+	</div>
+  </footer> --> 
+
+
+<!-- ////////////////////////////////////////// -->
+<!-- <!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset = "UTF-8">
+	
+	<link rel = "stylesheet" href="form2.css">
+	<title> Iso-Sec</title>
+</head>
+<div class="container">
+<h1>Admin Iso-Sec  Courses</h1>
+</div>
+<form action="/facilitators_image_upload" class="my-form" enctype="multipart/form-data" enctype="multipart/form-data"method="POST">
+	<div class="container">
+
+		 <li> -->
+		  <!-- <div class="grid grid-2">
+					 <input type="file" name="myImage1" accept="image/*" />
+					 <input type="submit" value="Upload Facilitator's Image"/> -->
+		  <!-- </div> -->
+		<!-- </li> -->
+	<!-- </div>
+  </form> 
+	  <form action="/course_image_upload" class="my-form" enctype="multipart/form-data" enctype="multipart/form-data"method="POST">
+	  <div class="container">
+
+		  <li>
+			<div class="grid grid-2">
+					   <input type="file" name="myImage2" accept="image/*" />
+					   <input type="submit" value="Upload Course Image"/>
+			</div>
+		  </li>
+	  </div>
+	</form>  -->
+
+
+ <!-- <form class="my-form"action="/add" method="POST"> 
+	<form action="/facilitators_image_upload" class="my-form" enctype="multipart/form-data" enctype="multipart/form-data"method="POST">
+	<div class="container">
+	
+	   <h1>Admin Iso-Sec  Courses</h1> -->
+	  <!-- <ul>
+		<li>
+		   <select id="course_categories" name="course_categories">
+			<option selected disabled>-- Please Select A Course Category --</option>
+			<option value="Hot_New">Hot New Courses</option>
+			<option value="Featured">Featured</option>
+			<option value="On_Demand">On Demand</option>
+			<option value="Archived">Archived</option>   
+		  </select> 
+		  <br>
+		   <br> 
+		   <select id="Item Number" name="item_number">
+			<option selected disabled>-- Select Item --</option>
+			<option value="Item 1">Item 1</option>
+			<option value="Item 2">Item 2</option>
+			<option value="Item 3">Item 3</option>
+			<option value="Item 4">Item 4</option>
+			<option value="Item 5"> Item 5</option>
+			<option value="Item 6">Item 6</option>
+			<option value="Item 7">Item 7</option>
+			<option value="Item 8">Item 8</option>
+			<option value="Item 9"> Item 9</option>
+			<option value="Item 10">Item 10</option>
+			<option value="Item 11">Item 11</option>
+			<option value="Item 12">Item 12</option>
+			<option value="Item 13">Item 13</option>
+			<option value="Item 14">Item 14</option>
+			<option value="Item 15">Item 15</option>
+			<option value="Item 16"> Item 16</option>
+			<option value="Item 17">Item 17</option>
+			<option value="Item 18">Item 18</option>
+			<option value="Item 19">Item 19</option>
+			<option value="Item 20">Item 20</option>  
+		  </select> 
+	
+		</li> -->
+	
+		<!-- <li>
+		  <div class="grid grid-2">
+			<input type="email" placeholder="Email" required>  
+			<input type="tel" placeholder="Phone">
+		  </div>
+		</li>		
+		<h2>Course Details</h2>
+
+		<li>
+			<div class="grid grid-2">
+			  <input type="text" placeholder="Course Title"  id="course_title" name="course_title" tabindex="1" required>  
+			  <input type="text" placeholder="Amount"  id="amount" name="amount" tabindex="4"required>
+			</div>
+		  </li> 
+
+
+
+		<div class="grid grid-2">
+			<input type="file" name="myFile" />
+				<input type="submit" value="Upload a file"/>  -->
+		<!-- </div>
+		  <br> 
+		<li>
+		  <textarea placeholder="About This Course" type="text" name="about_this_course"id="about_this_course" ></textarea>
+		</li>   
+		<h2>Course Facilitator</h2>
+		<li>
+			<input type="text" placeholder="Facilitator's Name" required name="facilitator_name"id="facilitator_name" >   -->
+			  <!-- <input type="file" name="facilitator_image"id="facilitator_image"  tabindex="5"required/> -->
+		
+			  <!-- <div class="grid grid-2">
+			  <input type="text" placeholder="Facilitator's Name" required name="facilitator_name"id="facilitator_name" >  
+			</div> -->
+		  <!-- </li>
+		<li>
+		  <textarea placeholder="About Course Facilitator" name="about_course_facilitator"id="about_course_facilitator"></textarea>
+		</li>  
+
+		  <li>
+		  <div class="grid grid-2">
+			<div class="required-msg">UPLOAD IMAGES BEFORE SUBMITTING</div>
+			
+			 <button class="btn-grid" type="submit" disabled> 
+				 <button class="btn-grid" type="submit">
+			  <span class="back">
+				<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/email-icon.svg" alt="">
+			  </span>
+
+			  
+			  <span class="front">SUBMIT</span>
+			</button>
+				<button class="btn-grid" type="reset">
+					
+			  <span class="back"> -->
+		
+				<!-- <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/eraser-icon.svg" alt="">
+			  </span>
+
+			  <span class="front">RESET</span>
+			</button> 
+		 <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+			<label for="vehicle1">Have You Upload Images Below?</label><br>  -- -->
+		  <!-- </div>
+		</li>     
+	  </ul>
+	</div>
+  </form>  -->
+
+
+ 
+	  <!-- <form action="/facilitators_image_upload" class="my-form" enctype="multipart/form-data" enctype="multipart/form-data"method="POST">
+	  <div class="container">
+
+		  <li>
+			<div class="grid grid-2">
+			 		  <input type="file" name="myImage1" accept="image/*" />
+					   <input type="submit" value="Upload Facilitator's Image"/>
+			</div>
+		  </li>
+	  </div>
+	</form> 
+		<form action="/course_image_upload" class="my-form" enctype="multipart/form-data" enctype="multipart/form-data"method="POST">
+		<div class="container">
+  
+			<li>
+			  <div class="grid grid-2">
+						 <input type="file" name="myImage2" accept="image/*" />
+						 <input type="submit" value="Upload Course Image"/>
+			  </div>
+			</li>
+		</div>
+	  </form>  -->
+
+	  <!-- <input type="button" value="Click Me!" onclick="submitForms()" /> --> 
+
+
+<!-- <!///////////////////////////////////////////////////////////////////////  -->
+<!-- <!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset = "UTF-8">
+	<link rel = "stylesheet" href="form2.css">
+	<title> Iso-Sec</title>
+</head>
+
+
+ <form class="my-form"action="/add" method="POST">
+
+	<div class="container">
+	
+	  <h1>Admin Iso-Sec  Courses</h1>
+	  <ul>
+		<li>
+		   <select id="course_categories" name="course_categories">
+			<option selected disabled>-- Please Select A Course Category --</option>
+			<option value="Hot_New">Hot New Courses</option>
+			<option value="Featured">Featured</option>
+			<option value="On_Demand">On Demand</option>
+			<option value="Archived">Archived</option>   
+		  </select> 
+		  <br>
+	 <br>  
+		  <select id="Item Number" name="item_number">
+			<option selected disabled>-- Select Item --</option>
+			<option value="Item 1">Item 1</option>
+			<option value="Item 2">Item 2</option>
+			<option value="Item 3">Item 3</option>
+			<option value="Item 4">Item 4</option>
+			<option value="Item 5"> Item 5</option>
+			<option value="Item 6">Item 6</option>
+			<option value="Item 7">Item 7</option>
+			<option value="Item 8">Item 8</option>
+			<option value="Item 9"> Item 9</option>
+			<option value="Item 10">Item 10</option>
+			<option value="Item 11">Item 11</option>
+			<option value="Item 12">Item 12</option>
+			<option value="Item 13">Item 13</option>
+			<option value="Item 14">Item 14</option>
+			<option value="Item 15">Item 15</option>
+			<option value="Item 16"> Item 16</option>
+			<option value="Item 17">Item 17</option>
+			<option value="Item 18">Item 18</option>
+			<option value="Item 19">Item 19</option>
+			<option value="Item 20">Item 20</option>  
+		  </select> 
+		  
+		</li>
+		<li>
+		  <div class="grid grid-2">
+			<input type="text" placeholder="Course Title"  id="course_title" name="course_title" tabindex="1" required>  
+			<input type="text" placeholder="Amount"  id="amount" name="amount" tabindex="4"required>
+		  </div>
+		</li>
+		<li>
+		  <div class="grid grid-2">
+			<input type="email" placeholder="Email" required>  
+			<input type="tel" placeholder="Phone">
+		  </div>
+				<br>
+				<h2>Course Facilitator</h2>
+			  <li>
+				<input type="text" placeholder="Facilitator's Name" required name="facilitator_name"id="facilitator_name" > 
+				<br>
+				<br>
+				<div class="grid grid-2">
+					  <input type="file" name="myImage" accept="image/*" />
+					  <input type="submit" value="Upload Facilitator's Image"/>
+				  </div>
+				  <br> 
+				</li>
+			  <li>
+				<textarea placeholder="About Course Facilitator" name="about_course_facilitator"id="about_course_facilitator"></textarea>
+			  </li> 
+  </form> 
+<form class="my-form"action="/course_image_upload2" enctype="multipart/form-data"  method="POST">
+		<h2>Course Details</h2>
+		<br>
+			<div class="grid grid-2">
+			  
+			  <input type="file" name="myImage2" accept="image/*" />
+	  		  <input type="submit" value="Upload Course Image"/>	
+			
+			</div>
+		 
+	  <br>
+	 <li>
+	   <textarea placeholder="About This Course" type="text" name="about_this_course"id="about_this_course" ></textarea>
+		  <div class="grid grid-3">
+		  </div>
+	  
+	   <li>
+		<div class="grid grid-2">
+		  <div class="required-msg">REQUIRED FIELDS</div>
+		   <button class="btn-grid" type="submit" disabled>
+			   <button class="btn-grid" type="submit">
+			<span class="back">
+			  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/email-icon.svg" alt="">
+			</span>
+			<span class="front">SUBMIT</span>
+		  </button>
+			  <button class="btn-grid" type="reset">
+			<span class="back">
+			  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/eraser-icon.svg" alt="">
+			</span>
+			<span class="front">RESET</span>
+		  </button> 
+		</div>
+	  </li>     -->
+	<!-- </ul>
+  </div>
+</form>   -->
+
+<!-- 
+<footer>
+  <div class="container">
+	<small>Built by <span>❤</span> by <a href="http://georgemartsoukos.com/" target="_blank">Olukayode Akorede +2348048323290</a>
+	</small>
+  </div>
+</footer> 
+
+  </form>   -->
+
+ <!-- ////////333333//////////////////////////////////////////////////////////////////// -->
+<!-- <form class="my-form"action="/facilitators_image_upload" enctype="multipart/form-data"  method="POST">
+
+	<div class="container">
+	
+	  <ul>
+	
+		<h2>Course Facilitator</h2>
+		<li>
+			<div class="grid grid-2">
+			  <input type="text" placeholder="Facilitator's Name" required name="facilitator_name"id="facilitator_name" > 
+			  <form action="/uploadphoto" enctype="multipart/form-data" method="POST"> 
+				<input type="file" name="myImage" accept="image/*" />
+			   </form>
+			
+			</div>
+		  </li>
+		<li>
+		  <textarea placeholder="About Course Facilitator" name="about_course_facilitator"id="about_course_facilitator"></textarea>
+		</li> 
+
+		<li>
+		  <div class="grid grid-3">
+			<div class="required-msg">REQUIRED FIELDS</div>
+			 <button class="btn-grid" type="submit" disabled> 
+				 <button class="btn-grid" type="submit">
+			  <span class="back">
+				<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/email-icon.svg" alt="">
+			  </span>
+			  <span class="front">SUBMIT</span>
+			</button>
+				<button class="btn-grid" type="reset">
+			  <span class="back">
+				<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/eraser-icon.svg" alt="">
+			  </span>
+			  <span class="front">RESET</span>
+			</button> 
+		  </div>
+		</li>    
+	  </ul>
+	</div>
+  </form>   -->
+
+<!-- ///////////////////////////////////////////////////////////////////////  -->
+   <!-- <footer>
+	<div class="container">
+	  <small>Built by <span>❤</span> by <a href="http://georgemartsoukos.com/" target="_blank">Olukayode Akorede +2348048323290</a>
+	  </small>
+	</div>
+  </footer>    -->
